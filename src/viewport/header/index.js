@@ -16,7 +16,7 @@ const Header = () => {
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-sm-6">
-                <ul className="header-info mb-0 d-flex list-unstyled">
+                <ul className="header-info ps-0 mb-0 d-flex list-unstyled">
                   <span>Email: </span><li><a href="mailto:sales@cassielrentals.com" target="blank">sales@cassielrentals.com </a></li>
                 </ul>
               </div>
