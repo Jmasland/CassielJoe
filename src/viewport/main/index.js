@@ -67,7 +67,7 @@ const Main = () => {
       <div className="clients p-80" id="clients">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div className="col-lg-5 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
               <div className="client-left">
                 <div className="row">
                   <div className="col-md-12">
@@ -89,7 +89,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 mb-lg-0">
+            <div className="col-lg-7 col-md-6 mb-lg-0">
               <div className="client-wrapper">
                 <div className="row">
                   <div className="col-md-12">
@@ -127,17 +127,17 @@ const Main = () => {
       <div className="features p-80" id="features">
         <div className="container">
           <div className="row d-flex align-items-center">
-            <div className="col-lg-4 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <a href="#lease" className="common-wrap">
                 <h4 className="mb-0">6x12 <br /> Electric</h4>
               </a>
             </div>
-            <div className="col-lg-4 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div className="col-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
               <a href="#trailer" className="common-wrap">
                 <h4 className="mb-0">7x14 <br /> Electric</h4>
               </a>
             </div>
-            <div className="col-lg-4 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div className="col-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
               <a href="#process" className="common-wrap">
                 <h4 className="mb-0">"Big Boy" <br /> 7x14 Gas </h4>
               </a>
@@ -163,7 +163,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 mb-lg-0">
+            <div className="col-lg-6 mt-4 mt-lg-0 mb-lg-0">
               <div className="lease-wrapper">
                 <div className="row">
                   <div className="col-md-12">
@@ -270,7 +270,7 @@ const Main = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div className="col-lg-6 mt-4 mt-lg-0 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
               <div className="lease-left">
                 <div className="row">
                   <div className="col-md-12">
@@ -309,7 +309,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 mb-lg-0">
+            <div className="col-lg-6 mt-4 mt-lg-0 mb-lg-0">
               <div className="lease-wrapper">
                 <div className="row">
                   <div className="col-md-12">
@@ -333,8 +333,7 @@ const Main = () => {
                     </p>
                   </li>
                   <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
-                    <p className="mb-0 listing-style"><b>Cooking Equipment:</b> Induction Range (36"), Griddle (24”), Oven, Fryer (50 lbs.), Food warmer, Refrigerator (undercounter), Steel worktable 
-(24" x 48") 
+                    <p className="mb-0 listing-style"><b>Cooking Equipment:</b> Induction Range (36"), Griddle (24”), Oven, Fryer (50 lbs.), Food warmer, Refrigerator (undercounter), Steel worktable <br></br>(24" x 48") 
                     </p>
                   </li>
                   <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
