@@ -482,18 +482,10 @@ footer a {
   line-height: 31px;
   padding-left: 10px;
 }
-footer a:hover {
-  color: #fff;
-}
 
 footer li {
   display: flex;
   align-items: center;
-  transition: 0.2s ease-in;
-}
-
-footer li:hover {
-  margin-left: 3px;
 }
 
 .email-wrap a {
@@ -658,6 +650,24 @@ footer li:hover {
 
 .popup-box .__react_component_tooltip.place-bottom::after {
   border-bottom-color: #f6a834;
+}
+.calendly-badge-widget {
+    position: fixed;
+    right: -80px;
+    top: 50%;
+    z-index: 9998;
+    transform: translateY(-50%);
+    bottom: auto !important;
+}
+
+.calendly-badge-widget .calendly-badge-content {
+    background: rgb(240 0 40) !important;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif !important;
+    transform: rotate(-90deg);
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+    font-size: 14px !important;
 }
 
 @media (min-width: 1400px) {
