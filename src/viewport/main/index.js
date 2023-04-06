@@ -6,6 +6,7 @@ import sixElectric from "../../../src/assets/6X12electric.png";
 import bigBoyGas from "../../../src/assets/Big-boy-Gas.png";
 import sevenElectric from "../../../src/assets/7X14electric.png";
 import { FaArrowCircleUp } from 'react-icons/fa';
+import { PopupWidget } from "react-calendly";
 
 const Main = () => {
   const [isOpen, setIsOpen,] = useState(false);
@@ -364,6 +365,11 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <PopupWidget
+        url="https://calendly.com/jonmasland/"
+        rootElement={document.getElementById('root')}
+        text= "Schedule a Meeting"
+      />
       <button className="scroll" type="submit">
         <FaArrowCircleUp onClick={scrollToTop}
           style={{ display: visible ? 'inline' : 'none' }} />
